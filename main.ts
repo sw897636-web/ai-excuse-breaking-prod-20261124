@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const EXCUSE =
-  "I toggled one feature flag to see what it did. It did this. The flag is off, the damage is not, and I have learned nothing.";
+  "In my defense, the tests were failing, so I deleted the tests. All green now. Production is down, but you never said production was a test.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
